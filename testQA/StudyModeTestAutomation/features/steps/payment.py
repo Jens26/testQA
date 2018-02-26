@@ -6,8 +6,8 @@ def step_impl(context):
 
 @When('we implement a test')
 def step_impl(context):
-    assert True is not False
+    assert True is not True
 
 @Then('behave will test it for us!')
 def step_impl(context):
-    assert context.failed is False
+    assert context.failed is True
