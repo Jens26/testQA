@@ -6,7 +6,7 @@ def step_impl(context):
 
 @When('we implement a test')
 def step_impl(context):
-    assert True is not True
+    assert A is B
 
 @Then('behave will test it for us!')
 def step_impl(context):
